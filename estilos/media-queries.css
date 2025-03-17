@@ -52,13 +52,13 @@ TELAS-G:                    1441px  ATÉ Máximo
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
-    
+
     section#login {
         width: 949px;
     }
     
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
@@ -66,6 +66,14 @@ TELAS-G:                    1441px  ATÉ Máximo
     section#login > div#imagem {
         float: right;
         width: 50%;
+    }
+
+    div#formulario > h1 {
+        font-size: 1.7em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
 
